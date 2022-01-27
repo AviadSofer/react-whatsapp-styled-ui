@@ -1,13 +1,14 @@
-import { ArrowBack, Clock, StatusBarIcon, MoreIcon, Nav, PhoneIcon, Profile, StatusBar, StyledHeader, VideoIcon } from './styles/Header.styled';
+import { Clock, StatusBarIcon, Nav, StatusBar, StyledHeader } from './styles/Header.styled';
+import { Icon } from './styles/Icon.styled';
 import signelIcon from '../assets/img/signal.png';
 import wifiIcon from '../assets/img/wifi.png';
 import batteryIcon from '../assets/img/battery.png';
 import arrowIcon from '../assets/img/arrow.png';
 import videoIcon from '../assets/img/video.png';
 import profileIcon from '../assets/img/profile.png';
-import PhoneNumber from './PhoneNumber';
 import phoneIcon from '../assets/img/phone.png';
 import moreIcon from '../assets/img/more.png';
+import PhoneNumber from './PhoneNumber';
 
 interface Props {
   phoneNumber: string
@@ -24,12 +25,12 @@ const Header: React.FC<Props> = (props) => {
         <StatusBarIcon src={batteryIcon}/>
       </StatusBar>
       <Nav>
-        <ArrowBack src={arrowIcon}/>
-        <Profile src={profileIcon}/>
+        <Icon width='8%' src={arrowIcon}/>
+        <Icon width='13%' src={profileIcon}/>
         <PhoneNumber {...props}/>
-        <VideoIcon src={videoIcon}/>
-        <PhoneIcon src={phoneIcon}/>
-        <MoreIcon src={moreIcon}/>
+        <Icon src={videoIcon}/>
+        <Icon src={phoneIcon}/>
+        <Icon src={moreIcon}/>
       </Nav>
     </StyledHeader>
   )

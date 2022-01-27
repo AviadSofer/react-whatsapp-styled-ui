@@ -17,21 +17,6 @@ border-radius: 20px;
 padding: 7px;
 `
 
-export const Emoji = styled.img`
-width: 10%;
-object-fit: cover;
-`
-
-export const AddFile = styled.img`
-width: 10%;
-object-fit: cover;
-`
-
-export const Camera = styled.img`
-width: 10%;
-object-fit: cover;
-`
-
 export const Send = styled.img`
 width: 5%;
 background-color: ${({ theme }) => theme.bg};

@@ -1,9 +1,10 @@
-import { AddFile, Camera, Emoji, MessageContainer, Send, StyledFooter } from './styles/Footer.styled';
+import { MessageContainer, Send, StyledFooter } from './styles/Footer.styled';
 import Message from './Message';
 import emojiIcon from '../assets/img/emo.png';
 import addFileIcon from '../assets/img/add.png';
 import cameraIcon from '../assets/img/camera.png';
 import sendIcon from '../assets/img/send.png';
+import { Icon } from './styles/Icon.styled';
 
 interface Props {
   phoneNumber: string,
@@ -21,10 +22,10 @@ const Footer: React.FC<Props> = (props) => {
   return (
     <StyledFooter>
       <MessageContainer>
-        <Emoji src={emojiIcon}/>
+        <Icon width='10%' src={emojiIcon}/>
         <Message {...props}/>
-        <AddFile src={addFileIcon}/>
-        <Camera src={cameraIcon}/>
+        <Icon width='10%' src={addFileIcon}/>
+        <Icon width='10%' src={cameraIcon}/>
       </MessageContainer>
       <Send src={sendIcon} onClick={createLink}/>
     </StyledFooter>
