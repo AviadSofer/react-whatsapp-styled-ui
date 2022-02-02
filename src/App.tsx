@@ -1,6 +1,6 @@
 import React from 'react'
-import { StyledApp } from './components/styles/App.styled'
-import WhatsappUi from './components/WhatsappUi'
+import { StyledApp } from './lib/components/styles/App.styled'
+import WhatsappUi from './lib/components/WhatsappUi'
 
 const App: React.FC = () => {
   return (
