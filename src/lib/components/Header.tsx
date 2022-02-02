@@ -1,3 +1,4 @@
+import React from 'react';
 import { Clock, StatusBarIcon, Nav, StatusBar, StyledHeader } from './styles/Header.styled';
 import { Icon } from './styles/Icon.styled';
 import signelIcon from '../assets/img/signal.png';

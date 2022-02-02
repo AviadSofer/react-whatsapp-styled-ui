@@ -1,3 +1,4 @@
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { SmartphoneDesign, StyledWhatsapp } from './styles/WhatsappChatUi.styled.js';
 import Footer from './Footer';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { StyledPhoneNumber } from './styles/PhoneNumber.styled';
 
 interface Props {

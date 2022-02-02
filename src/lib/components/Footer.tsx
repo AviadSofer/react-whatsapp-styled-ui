@@ -1,3 +1,4 @@
+import React from 'react';
 import { MessageContainer, Send, StyledFooter } from './styles/Footer.styled';
 import Message from './Message';
 import emojiIcon from '../assets/img/emo.png';

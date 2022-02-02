@@ -1,17 +1,18 @@
 {
-  "name": "react-whatsapp-chat-design",
+  "name": "react-whatsapp-styled-ui",
   "description": "A Whatsapp chat screenshot design, build with React, TS, CSS and styled-components.",
   "version": "1.0.0",
-  "private": "true",
+  "private": false,
   "main": "dist/index.ts",
   "module": "dist/index.ts",
   "files": [ "dist", "README.md" ],
-  "repository": {"url": "https://github.com/AviadSofer/react-whatsapp-chat-design"},
+  "repository": {"url": "https://github.com/AviadSofer/react-whatsapp-styled-ui"},
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "publish:npm": "babel src/lib/ --out-dir dist --copy-files"
+    "publish:local": "babel src/lib/ --out-dir dist --copy-files",
+    "publish:npm": "babel src/lib/ --out-dir dist --copy-files && npm publish"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
