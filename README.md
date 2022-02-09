@@ -1,8 +1,6 @@
 # react-whatsapp-styled-ui
 A Whatsapp chat screenshot design, build with React, TS, CSS.
 
-You can see the Demo of the component [here](https://react-whatsapp-chat-design.vercel.app).
-
 ## Installation
 
     npm i react-whatsapp-styled-ui
@@ -23,6 +21,9 @@ textToImage.generate('Lorem ipsum dolor sit amet').then(function (dataUri) {
 // using the synchronous API
 const dataUri = textToImage.generateSync('Lorem ipsum dolor sit amet');
 ```
+## Demo
+
+You can see the Demo of the component [here](https://react-whatsapp-chat-design.vercel.app).
 
 ## Configuring
 
