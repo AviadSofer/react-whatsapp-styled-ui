@@ -1,9 +1,7 @@
 # react-whatsapp-styled-ui
 A Whatsapp chat screenshot design, build with React, TS, CSS
 
-## Demo
-
-Use [this CodeSandbox](https://codesandbox.io/s/text-to-image-example-r8h1o?file=/src/index.ts) to try out text-to-image in your browser.
+You can see the Demo of the component [here](https://react-whatsapp-chat-design.vercel.app)
 
 ## Installation
 
