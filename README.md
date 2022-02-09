@@ -1,23 +1,13 @@
 # react-whatsapp-styled-ui
 A Whatsapp chat screenshot design, build with React, TS, CSS
 
-[![Code Coverage](https://img.shields.io/coveralls/bostrom/text-to-image.svg)](https://coveralls.io/github/bostrom/text-to-image)
-[![Npm Version](https://img.shields.io/npm/v/text-to-image.svg)](https://www.npmjs.com/package/text-to-image)
-[![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-
-A library for generating an image data URI representing an image containing the text of your choice.
-
-Originally part of a Twitter bot for publishing tweets longer than 140 characters, the generator takes a string and an optional configuration object as parameters and produces an image data URI (`data:image/png;base64,iVBORw0KGgoAAAA...`).
-
-## Try it
+## Demo
 
 Use [this CodeSandbox](https://codesandbox.io/s/text-to-image-example-r8h1o?file=/src/index.ts) to try out text-to-image in your browser.
 
 ## Installation
 
-    npm i text-to-image
-
-> Note that text-to-image uses [node-canvas](https://github.com/Automattic/node-canvas) to generate the images. For text-to-image to install, you might have to fulfill the [installation requirements for node-canvas](https://github.com/Automattic/node-canvas#installation). Please refer to their documentation for instructions.
+    npm i react-whatsapp-styled-ui
 
 ## Usage
 
