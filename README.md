@@ -8,18 +8,19 @@ A Whatsapp chat screenshot design, build with React, TS, CSS.
 ## Usage
 
 ```typescript
-const textToImage = require('text-to-image');
+import React from 'react';
+import WhatsappUi from './lib/components/WhatsappUi';
 
-// using the asynchronous API with await
-const dataUri = await textToImage.generate('Lorem ipsum dolor sit amet');
+function App() {
+  return (
+    <div>
+      <WhatsappUi message={'Hi!'} size={70} phoneNumber={'9765555555555'}/>
+    </div>
+  )
+}
 
-// using the asynchronous API with .then
-textToImage.generate('Lorem ipsum dolor sit amet').then(function (dataUri) {
-  // use the dataUri
-});
+export default App
 
-// using the synchronous API
-const dataUri = textToImage.generateSync('Lorem ipsum dolor sit amet');
 ```
 ## Demo
 
