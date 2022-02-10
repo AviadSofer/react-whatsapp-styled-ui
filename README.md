@@ -32,7 +32,7 @@ Fot the component will work fine you have to Set all this props:
 | Name          | Type                                       | Description                                                                                                                                                                                                                              
 | ------------- | ----------------------------------------- | -----------------------------------------------------------------------|
 | message       | string                                    | Sers the message.                                                      |
-| phoneNumber   | string                                    | Sets the phone number. Yuo can do it with (useState)[https://reactjs.org/docs/hooks-state.html].                    |                                                                                                     |
+| phoneNumber   | string                                    | Sets the phone number. Yuo can do it with [useState](https://reactjs.org/docs/hooks-state.html).                    |                                                                                                     |
 | size          | number                                    | Sets the Size of the component in vh. the width relative to the height.|                                                                                                                                                  |
 
 ## Contributing
