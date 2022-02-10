@@ -29,11 +29,11 @@ You can see the Demo of the component [here](https://react-whatsapp-chat-design.
 ## Configuring
 Fot the component will work fine you have to Set all this props:
 
-| Name          | Type                                      | Default value | Description                                                                                                                                                                                                                              |
-| ------------- | ----------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| message       | string                                    | Sers the message. 
-| phoneNumber   | string                                    | Sets the phone number. Yuo can do it with useState.                                                                                                         |
-| size          | number                                    | Sers the Size of the component in vh. the width relative to the height.                                                                                                                                                   |
+| Name          | Type                                       | Description                                                                                                                                                                                                                              
+| ------------- | ----------------------------------------- | -----------------------------------------------------------------------|
+| message       | string                                    | Sers the message.                                                      |
+| phoneNumber   | string                                    | Sets the phone number. Yuo can do it with useState.                    |                                                                                                     |
+| size          | number                                    | Sers the Size of the component in vh. the width relative to the height.|                                                                                                                                                  |
 
 ## Contributing
 
