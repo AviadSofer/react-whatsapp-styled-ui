@@ -1,0 +1,42 @@
+{
+  "name": "react-whatsapp-styled-ui",
+  "description": "A Whatsapp chat screenshot design, build with React, TS, CSS and styled-components.",
+  "version": "1.0.6",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "url": "https://github.com/AviadSofer/react-whatsapp-styled-ui"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "delete-dist": "rd /s \"dist\"",
+    "publish:local": "tsc",
+    "publish:npm": "tsc && npm publish"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/styled-components": "^5.1.21",
+    "@vitejs/plugin-react": "^1.0.7",
+    "copyfiles": "^2.4.1",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}
