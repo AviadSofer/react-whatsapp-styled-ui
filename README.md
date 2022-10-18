@@ -1,9 +1,9 @@
-# react-whatsapp-styled-ui-hebrew
+# react-whatsapp-styled-ui
 A Whatsapp chat screenshot design, build with React, TS, CSS.
 
 ## Installation
 
-    npm i react-whatsapp-styled-ui-hebrew
+    npm i react-whatsapp-styled-ui
 
 ## Usage
 
